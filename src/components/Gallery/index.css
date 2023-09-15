@@ -1,0 +1,36 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  max-width: 1100px;
+}
+
+.image {
+  border-radius: 16px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 25px;
+}
+.text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+.thumbnail-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
